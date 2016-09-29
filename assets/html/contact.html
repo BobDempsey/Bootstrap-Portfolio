@@ -19,15 +19,16 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 	
 	<!-- local css link -->
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+
 	<!-- font link -->
 	<link href="https://fonts.googleapis.com/css?family=Lato|Merriweather" rel="stylesheet">
 
-
+	<!-- bootstrap js link -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-	<title>Bootstrap Student Bio</title>
+	<title>Bootstrap Portfolio</title>
 
 </head>
 <body>
@@ -35,6 +36,7 @@
 
 	<nav class="navbar navbar-default navbar-inverse"><!-- start nav -->
 		<div class="container">
+			
 			<!-- Brand and toggle get grouped for better mobile display -->
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -59,43 +61,59 @@
 </nav><!-- /.nav -->
 </div><!-- /.nav container -->
 
-<div class="container"><!-- page content container -->
+<div class="container"><!-- page content container/wrapper -->
 	<div class="row">
-		<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12"> <!-- About Me Section -->
+		<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12"> <!-- Contact Section -->
 
-			<div class="jumbotron"><!-- About Me Container -->
+			<div class="jumbotron"><!-- Contact Section Container -->
 
-				<h2>About Me</h2>
+				<h2>Contact</h2>
 				<hr>
-				<div class="clearfix"><!-- bio image & info container --><div class="grid"> <figure class="effect-ruby pull-left pull-left-padding"><img src="1a.jpg" alt="Bob Dempsey" class="img-responsive" /></figure></div>
-				<p>Bob Dempsey is a full-stack web developer. After gaining an interest in web development while creating his personal website, he attended the UCF Web Coding Bootcamp to increase his skills and technical knowledge. Today he's employed with X, developing web pages and databases full time.</p>
+				<form>
 
-				<p>Bob Dempsey is a full-stack web developer. After gaining an interest in web development while creating his personal website, he attended the UCF Web Coding Bootcamp to increase his skills and technical knowledge. Today he's employed with X, developing web pages and databases full time.</p>
-			</div><!-- /.clearfix -->
-		</div><!-- /.About Me Container -->
-	</div><!-- /.About Me Section -->
+				<!-- start contact form -->
+					<div class="form-group">
+						<label for="exampleInputPassword1">Name</label>
+						<input type="password" class="form-control" id="exampleInputPassword1" placeholder="John Smith">
+					</div>
+					<div class="form-group">
+						<label for="exampleInputEmail1">Email</label>
+						<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="example@gmail.com">
+						
+					</div>
+					<div class="form-group">
+						<label for="exampleTextarea">Message</label>
+						<textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+					</div>
+					<button type="submit" class="btn btn-primary">Submit</button>
+				</form>
+				<!-- end contact form -->
+
+				<div class="clearfix"><!-- fix for contact section -->
+				</div><!-- /.clearfix -->
+			</div><!-- /.Contact Container -->
+		</div><!-- /.Contact Section -->
 
 
 
-	<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12"> <!-- connect with me section -->
+		<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12"> <!-- connect with me section -->
 
-		<div class="jumbotron"><!-- connect with me container -->
+			<div class="jumbotron"><!-- connect with me container -->
 
-			<h3>Connect with Me</h3>
-			<hr>
-			<div class="clearfix"><!-- bio image & info container -->
+				<h3>Connect with Me</h3>
+				<hr>
+				<div class="clearfix"><!-- bio image & info container -->
 
-				<a href="https://github.com/BobDempsey" title="Bob Dempsey Github" target="_blank"><img src="github logo.png" alt="Github" class="social-icon"></a>
+					<a href="https://github.com/BobDempsey" title="Bob Dempsey Github" target="_blank"><img src="../images/github logo.png" alt="Github" class="social-icon"></a>
 
-				<a href="https://www.linkedin.com/in/bob-dempsey-898004127?trk=nav_responsive_tab_profile_pic" title="Bob Dempsey Linkedin" target="_blank"><img src="linkedin logo.png" alt="Linkedin" class="social-icon"></a>
+					<a href="https://www.linkedin.com/in/bob-dempsey-898004127?trk=nav_responsive_tab_profile_pic" title="Bob Dempsey Linkedin" target="_blank"><img src="../images/linkedin logo.png" alt="Github" class="social-icon"></a>
 
-				<a href="http://stackoverflow.com/users/6797367/bob-dempsey" title="Bob Dempsey Stackoverflow" target="_blank"><img src="stackoverflow logo.png" alt="stackoverflow" class="social-icon"></a>
-				
-			</div><!-- /.clearfix -->
-		</div><!-- /.connect with me container -->
-	</div><!-- /.connect with me section -->
-</div><!-- /.row -->
+					<a href="http://stackoverflow.com/users/6797367/bob-dempsey" title="Bob Dempsey Stackoverflow" target="_blank"><img src="../images/stackoverflow logo.png" alt="Github" class="social-icon"></a>
 
+				</div><!-- /.clearfix -->
+			</div><!-- /.connect with me container -->
+		</div><!-- /.connect with me section -->
+	</div><!-- /.row -->
 </div><!-- /.page content container -->
 
 <br><br>
@@ -104,11 +122,5 @@
 		<p class="navbar-text-center nav">Copyright © 2016 - Bob Dempsey</p>
 	</div>
 </footer> <!-- /.footer -->
-
-
-
 </body>
-
-
-
 </html>
