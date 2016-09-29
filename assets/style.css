@@ -1,0 +1,148 @@
+body {
+	background-image: url("wov.png");
+	background-color: #999999;
+}
+
+body, p {
+	font-family: 'Lato', sans-serif;
+
+}
+
+h2, h3 {
+	font-family: 'Merriweather', serif;
+
+}
+
+/* created class to pad social icons */
+.social-icon {
+	margin: 5px;
+
+	/* social icons grow effect speed  */
+
+	-webkit-transition:all 0.3s ease-out;
+	-moz-transition:all 0.3s ease-out;
+	-ms-transition:all 0.3s ease-out;
+	-o-transition:all 0.3s ease-out;
+	transition:all 0.3s ease-out;
+}
+
+.social-icon:hover {
+
+	/* hover: social icons grow effect scale  */
+
+	-webkit-transform:scale(1.2);
+	-moz-transform:scale(1.2);
+	-ms-transform:scale(1.2);
+	-o-transform:scale(1.2);
+	transform:scale(1.2);
+}
+
+/* created class to center footer text */
+.navbar-text-center {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	text-align: center;
+	color: #9d9d9d;
+}
+
+/* adds margin around bio image in about section */
+.pull-left-padding {
+	margin-right: 20px;
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+
+
+/*---------------*/
+/***** Ruby *****/
+/*---------------*/
+.grid figure {
+
+	position: relative;
+	float: left];
+	overflow: hidden;
+	margin-top: 7px;
+	margin-bottom: 5px;
+	background: #3085a3;
+}
+
+.grid figure img {
+
+	position: relative;
+	display: block;
+	min-height: 100%;
+	max-width: 100%;
+	opacity: 0.8;
+	
+}
+
+/*---------------*/
+/***** Ruby *****/
+/*---------------*/
+
+figure.effect-ruby {
+	
+}
+
+figure.effect-ruby img {
+
+	opacity: 100;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+figure.effect-ruby:hover img {
+	opacity: 0.5;
+	-webkit-transform: scale(1.15);
+	transform: scale(1.15);
+}
+
+
+@media screen and (max-width: 500px;) {
+	.content {
+		padding: 0 10px;
+		text-align: center;
+	}
+	.grid figure {
+		display: inline-block;
+		float: none;
+		margin: 10px auto;
+		width: 100%;
+	}
+}
+/*---------------*/
+/***** /.Ruby *****/
+/*---------------*/
+
+/* Portfolio styling*/
+.portitem {
+
+	height: 175px;
+	width: 275px;
+	background-color: #333;
+	float: left;
+	margin-left: 4%;
+	margin-right: 3%;
+	margin-top: 2%;
+	margin-bottom: 5%;
+
+
+}
+
+/* Portfolio styling*/
+.h2portitem {
+
+	background-color: #4aaaa5;
+	height: 50px;
+	width: 275px;
+	position: absolute;
+	margin-top: 14%;
+	float: left;
+	font-family: serif;
+	color: white;
+	text-align: center;
+	line-height: 2;
+
+}
