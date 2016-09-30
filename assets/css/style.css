@@ -42,7 +42,7 @@ h2, h3 {
 	margin-top: 15px;
 	margin-bottom: 15px;
 	text-align: center;
-	color: #9d9d9d;
+	color: #dddddd;
 }
 
 /* adds margin around bio image in about section */
@@ -134,7 +134,7 @@ figure.effect-ruby:hover img {
 /* Portfolio styling*/
 .h2portitem {
 
-	background-color: #4aaaa5;
+	background-color: #3085a3;
 	height: 50px;
 	width: 275px;
 	position: absolute;
@@ -143,6 +143,6 @@ figure.effect-ruby:hover img {
 	font-family: serif;
 	color: white;
 	text-align: center;
-	line-height: 2;
+	line-height: 1.5;
 
 }
